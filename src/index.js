@@ -29,6 +29,7 @@ const createIncompleteList = (value) => {
   // 完了ボタン生成
   const completeButton = document.createElement("button");
   completeButton.innerText = "完了";
+  console.log("aaa");
   // -----------------
   // 完了ボタン押下時の処理
   // -----------------
